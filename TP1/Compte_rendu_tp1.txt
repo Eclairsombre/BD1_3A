@@ -1,0 +1,17 @@
+CREATE TABLE Commandes (
+    NoCom        NUMBER(5) PRIMARY KEY,
+    Client       VARCHAR2(20),
+    Appellation  VARCHAR2(20),
+    NomFour      VARCHAR2(20),
+    Qte          NUMBER(4)
+);
+
+
+INSERT INTO Commandes VALUES (1535,'Jean', 'Agata', 'BonPom', 6) ;
+INSERT INTO Commandes VALUES (1854,'Jean', 'Agata', 'Vincent', 20) ;
+INSERT INTO Commandes VALUES (1254,'Paul','Jeannette','Charlie', 20) ;
+INSERT INTO Commandes VALUES (1258,'Paul','Jeannette','Charlie', 20) ;
+INSERT INTO Commandes VALUES (1596,'Paul','Amandine','Charlie', 12) ;
+INSERT INTO Commandes VALUES (2000,'Jean', 'Agata', 'BonPom', 12) ;
+
+
